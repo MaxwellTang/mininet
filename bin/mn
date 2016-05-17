@@ -90,11 +90,19 @@ LINKS = { 'default': Link,
 
 # optional tests to run
 TESTS = [ 'cli', 'build', 'pingall', 'pingpair', 'iperf', 'all', 'iperfudp',
-          'none' ]
+          'none'
+         #<SignalCodeIn>
+
+
+         #<\SignalCodeIn>
+         ]
 
 ALTSPELLING = { 'pingall': 'pingAll',
                 'pingpair': 'pingPair',
                 'iperfudp': 'iperfUdp',
+         #<SignalCodeIn>
+
+         #<\SignalCodeIn>
                 'iperfUDP': 'iperfUdp' }
 
 

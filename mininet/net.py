@@ -729,6 +729,11 @@ class Mininet( object ):
             error( 'could not parse iperf output: ' + iperfOutput )
             return ''
 
+#<SignalCodeIn>
+
+
+#<\SignalCodeIn>
+
     # XXX This should be cleaned up
 
     def iperf( self, hosts=None, l4Type='TCP', udpBw='10M', fmt=None,

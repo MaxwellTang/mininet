@@ -208,6 +208,13 @@ class CLI( Cmd ):
         "Ping between first two hosts, returns all ping results."
         self.mn.pingPairFull()
 
+
+#<SignalCodeIn>
+
+
+
+#<\SignalCodeIn>
+
     def do_iperf( self, line ):
         """Simple iperf TCP test between two (optionally specified) hosts.
            Usage: iperf node1 node2"""
